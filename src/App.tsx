@@ -12,7 +12,6 @@ import Help from './pages/Help';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { SettingsProvider } from './contexts/SettingsContext';
 import { ConversionProvider } from './contexts/ConversionContext';
-import './styles/globals.css';
 
 function AppContent() {
   const { isAuthenticated } = useAuth();
