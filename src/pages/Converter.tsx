@@ -208,6 +208,14 @@ export default function Converter() {
                   <Download className="w-3.5 h-3.5" />
                   BRF
                 </button>
+                <button
+                  onClick={() => window.print()}
+                  disabled={!brailleOutput}
+                  className="px-3 py-1.5 bg-green-600 hover:bg-green-700 disabled:bg-slate-300 disabled:dark:bg-slate-600 text-white text-sm font-medium rounded-lg transition-colors flex items-center gap-1.5"
+                >
+                  <Download className="w-3.5 h-3.5" />
+                  Print
+                </button>
               </div>
             </div>
             
